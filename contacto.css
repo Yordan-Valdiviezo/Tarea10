@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin:0px;
+    --color1: #940D11;
+    --color2: #FBECC3; 
+}
+#Cabecera{
+    display: flex;
+    background-color: var(--color2);
+    justify-content: space-evenly;
+}
+#Menu>ul{
+    margin-top:30px;
+    display: flex;
+    list-style-type: none;
+}
+#Menu a{
+    padding: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+#Menu a:hover{
+    color: var(--color1);
+}
+#Cuerpo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#Cuerpo h1{
+    color: var(--color1);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#Info{
+    margin-right:100px;
+}
+.Colum{
+    display: flex;
+    
+}
+#Formulario{
+    margin-right:100px;
+}
+#boton{
+    text-align: center;
+}
+#Maps{
+    margin-right:100px;
+}
+#Pie{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    columns: 4;
+    background-color: var(--color1);
+    color: white;
+}
+#Imagen{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.Caja h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Caja>ul{
+    list-style-type: none;
+}
+.Caja a{
+    text-decoration: none;
+    color: white;
+}
